@@ -15,8 +15,9 @@ Usage: <br />
 If you want to run the app locally,
 use the Docker images provided for the client, server and database with the following Enviroment Variables: <br />
   for client: <br />
-  REACT_APP_SPOTIFY_CLIENT_ID: your spotify devoloper client ID (https://developer.spotify.com/). <br />
+  REACT_APP_SPOTIFY_CLIENT_ID: your spotify developer client ID (https://developer.spotify.com/). <br />
   REACT_APP_REDIRECT_URI: the spotify redirect uri http://hostname/callback where hostname is where you host the client (e.g. http://localhost:3000/callback) <br />
+  *note: you should add your desired callback uri through the spotify developer dashboard
  
   for server:<br />
   DB_HOST: the MongoDB hostname <br />
